@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FEFEEE;
+	margin-top: 20px;
+}
+
+.divexport {
+	padding-top: 20px;
+	margin-left: 300px;
+}
+
+.importForm {
+	float: left;
+	width: 250px;
+	margin-bottom: 0px;
+}
+
+
+table {
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+
+tr:nth-of-type(odd) {
+	background-color: white;
+}
+
+tr:nth-of-type(even) {
+	background-color: #CCC;
+}
+
+th {
+    background-color:#88F;
+    color:#000;
+    font-weight: bold;
+    cursor: default;
+}
+
+td, tr {
+	border: 1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* Sortable tables */
+table.sortable thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
+
+.displaytable {
+	margin-top: 15px;
+}
+
+.content {
+	margin-top: 5px;
+}
+
+.nav,a {
+	margin-right: 20px;
+	color: blue;
+}
